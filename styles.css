@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+    border: border-box; 
+}
+
+.DrugList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #17a4db;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+img {
+    border-radius: 3%;
+}
+
+h3 {
+    color: #000000;
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+section {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}

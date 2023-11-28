@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MedLife</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+                <path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475Z"/>
+                <path d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z"/>
+              </svg> MedLife</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      List
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="A.html">A</a></li>
+                      <li><a class="dropdown-item" href="B.html">B</a></li>
+                      <li><a class="dropdown-item" href="c.html">C</a></li>
+                      <li><a class="dropdown-item" href="D.html">D</a></li>
+                      <li><a class="dropdown-item" href="E.html">E</a></li>
+                      <li><a class="dropdown-item" href="F.html">F</a></li>
+                      <li><a class="dropdown-item" href="G.html">G</a></li>
+                      <li><a class="dropdown-item" href="H.html">H</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">I</a></li>
+                      <li><a class="dropdown-item" href="#">J</a></li>
+                      <li><a class="dropdown-item" href="#">K</a></li>
+                      <li><a class="dropdown-item" href="#">L</a></li>
+                      <li><a class="dropdown-item" href="#">M</a></li>
+                      <li><a class="dropdown-item" href="#">N</a></li>
+                      <li><a class="dropdown-item" href="#">O</a></li> -->
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+   <hr>
+   <hr>
+   <hr>
+    <main>
+        <h2 class="DrugList">Drug List</h2>
+
+        <section>   
+            <ul>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Alprazolam</h3></samp></summary>
+                    <p><strong>Class:</strong> Sedative-Hypnotic</p>
+                    <p><strong>Sub-class:</strong> Benzodiazepine</p>
+                    <p><strong>MOA:</strong> acts by facilitating the binding of the inhibitory neurotransmitter GABA <br> at various GABA receptors throughout the CNS</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>In Anxiety Neuroses
+                                <ul><li>Anxiety with depression</li>
+                                <li>Anxiety with panic disorder</li></ul>
+                            </li>
+                            <li>In Insomnia</li>
+                            <li>Treatment of alcohol withdrawal </li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Hangover</li>
+                            <li>Hypersensitivity</li>
+                            <li>Tolerance & Dependence</li>
+                            <li>Poisoning (in higher doses)</li>
+                        </ol></p>
+
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Atropine</h3></samp></summary>
+                    <p><strong>Class:</strong> Anticholinergic/ Antimuscarinic drug</p>
+                    <p><strong>Sub-class:</strong> Natural Alkaloids</p>
+                    <p><strong>MOA:</strong> It inhibits the muscarinic actions of acetylcholine on structures innervated by postganglionic cholinergic nerves and on smooth muscles</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>To reduce saliva & fluid in the respiratory tract during surgery</li>
+                            <li>To treat bradycardia</li>
+                            <li>To increase respiratory rate</li>
+                            <li>Used in CPR</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Bigger, dilated or enlarged pupils</li>
+                            <li>Chest pain, discomfort or tightness</li>
+                            <li>Decrease in urine volume</li>
+                            <li>Dryness of mouth</li>
+                            <li>Blurred vision, photophobia</li>
+                            <li>Tachycardia</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Amoxicillin</h3></samp></summary>
+                    <p><strong>Class:</strong> Antibiotic drug</p>
+                    <p><strong>Sub-class:</strong> Penicillin like antibiotic</p>
+                    <p><strong>MOA:</strong> Exerts bactericidal activity via inhibition of bacterial cell wall synthesis by binding one or more of the penicillin binding proteins(PBPs)</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>To treat bacterial infections</li>
+                            <li>Chest infections like pneumonia</li>
+                            <li>Dental abscesses</li>
+                            <li>H. pylori induced ulcers</li>
+                            <li>Ear infections in children</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Skin rash</li>
+                            <li>Itching</li>
+                            <li>Shortness of breath</li>
+                            <li>Swelling of hands, face, mouth or throat</li>
+                            <li>Nausea, vomiting, Diarrhoea</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Azithromycin</h3></samp></summary>
+                    <p><strong>Class:</strong> Antibiotic drug</p>
+                    <p><strong>Sub-class:</strong> Macrolide antibiotic</p>
+                    <p><strong>MOA:</strong> The macrolides and ketolides bind irreversibly to a site on the 50S subunit of thr bacterial ribosome, this inhibiting translocation steps of protein synthesis, inhibition of proinflammatory cytokine production, inhibition of neutrophil infestation & macrophage polarization alteration</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>Bronchitis</li>
+                            <li>Pneumonia</li>
+                            <li>Sexually transmitted infections</li>
+                            <li>Infections of the ears, lungs, sinuses, skin, throat & genitals</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Nausea, vomiting</li>
+                            <li>Diarrhoea </li>
+                            <li>Loss in appetite</li>
+                            <li>Dizziness and fatigue</li>
+                            <li>CVS disturbances</li>
+                            <li>Tachycardia, Angina</li>
+                            <li>Blistering and body ache</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Aspirin</h3></samp></summary>
+                    <p><strong>Class:</strong> Non steroidal antiinflammatory drugs(NSAIDs)</p>
+                    <p><strong>Sub-class:</strong> Acetylsalicylic acid drug</p>
+                    <p><strong>MOA:</strong>Inhibit the activity of cyclooxygenasr(COX) which leads to the formation of prostaglandins (PGs) that cause inflammation, swelling, pain and fever</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>As analgesic</li>
+                            <li>As antipyretic</li>
+                            <li>As anti inflammatory</li>
+                            <li>As blood thinner</li>
+                            <li>In heart attacks & strokes</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Abdominal & stomach pain, burns & cramps</li>
+                            <li>Reye's syndrome</li>
+                            <li>Chest pain & discomfort</li>
+                            <li>Constipation</li>
+                            <li>Difficult breathing</li>
+                            <li>Dizziness</li>
+                            <li>Kidney problems</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Atenolol</h3></samp></summary>
+                    <p><strong>Class:</strong> Beta blocker drug</p>
+                    <p><strong>Sub-class:</strong> Selective beta blocker</p>
+                    <p><strong>MOA:</strong> It is a competitive antagonist that blocks the beta-1 adrenergic receptors in the heart, causing heart to beat slower and less forcefully</p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>High blood pressure</li>
+                            <li>Angina</li>
+                            <li>Heart attack</li>
+                            <li>Irregular heart rhythm</li>
+                            <li>Prevention of migraine</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Bradycardia</li>
+                            <li>Heart failure</li>
+                            <li>Peripheral vascular insufficiency</li>
+                            <li>Raynaud's syndrome</li>
+                            <li>Worsening of AV block</li>
+                            <li>Worsening of heart failure</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Amlodipine</h3></samp></summary>
+                    <p><strong>Class:</strong> Calcium channel blockers or Calcium antagonists</p>
+                    <p><strong>Sub-class:</strong> Dihydropyridine drugs</p>
+                    <p><strong>MOA:</strong> blocks the voltage dependent L- type calcium channels, thereby inhibiting the initial flux of calcium into vascular smooth muscle cells and myocardial cells.
+                    </p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>Hypertension</li>
+                            <li>To prevent heart diseases</li>
+                            <li>To prevent strokes</li>
+                            <li>To prevent angina</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Headache</li>
+                            <li>Upset stomach</li>
+                            <li>Nausea</li>
+                            <li>dizziness</li>
+                            <li>Swelling of hands, feet, ankles or lower legs</li>
+                        </ol></p>
+                    </details>
+                <!-- </li> -->
+                <hr>
+                <!-- <li> -->
+                    <details><summary><h3><samp>Atorvastatin</h3></samp></summary>
+                    <p><strong>Class:</strong> Hypolipidemic drugs</p>
+                    <p><strong>Sub-class:</strong> HMG-CoA reductase inhibitors(Statins)</p>
+                    <p><strong>MOA:</strong> competitively inhibits 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, by preventing the conversion of HMG-CoA to mevalonate, statin medications decrease cholesterol production in the liver.
+                    </p>
+                    <p> <strong>Uses:</strong>
+                        <ol>
+                            <li>Lower cholesterol and triglyceride(fats) levels in the blood</li>
+                            <li>To prevent fat clogging in blood vessels</li>
+                            <li>Heart diseases</li>
+                        </ol> </p>
+                    <p><strong>Adverse effects:</strong>
+                        <ol>
+                            <li>Arthralgia</li>
+                            <li>Dyspepsia</li>
+                            <li>Nausea</li>
+                            <li>Diarrhoea</li>
+                            <li>Nasopharyngitis</li>
+                            <li>Insomnia</li>
+                            <li>Urinary tract infection</li>
+                            <li>Pain in extremities</li>
+                        </ol>
+                    </p>
+                </details>
+                <!-- </li> -->
+                <hr>
+                <!-- Add more drug names and their indications here -->
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

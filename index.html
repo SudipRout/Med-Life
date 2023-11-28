@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedLife</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+                <path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475Z"/>
+                <path d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z"/>
+              </svg> MedLife</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      List
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="A.html">A</a></li>
+                      <li><a class="dropdown-item" href="B.html">B</a></li>
+                      <li><a class="dropdown-item" href="c.html">C</a></li>
+                      <li><a class="dropdown-item" href="D.html">D</a></li>
+                      <li><a class="dropdown-item" href="E.html">E</a></li>
+                      <li><a class="dropdown-item" href="F.html">F</a></li>
+                      <li><a class="dropdown-item" href="G.html">G</a></li>
+                      <li><a class="dropdown-item" href="H.html">H</a></li>
+                      <!-- <li><a class="dropdown-item" href="#">I</a></li>
+                      <li><a class="dropdown-item" href="#">J</a></li>
+                      <li><a class="dropdown-item" href="#">K</a></li>
+                      <li><a class="dropdown-item" href="#">L</a></li>
+                      <li><a class="dropdown-item" href="#">M</a></li>
+                      <li><a class="dropdown-item" href="#">N</a></li>
+                      <li><a class="dropdown-item" href="#">O</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <hr>
+    <hr>
+    <main class="p-3 mb-2 bg-body-secondary">
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./home.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Drug</i></h1>
+            <p class="lead">According to WHO (1966) "Drug is any substance or product that is used or is intended to be used to modify or explore physiological systems or pathological states for the benefit of the recipient."
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">ABOUT DRUGS</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Drug Nomenclature</h3>
+          <p>A drug name contains following components
+            <ul>
+              <li>Chemical Name</li>
+              <li>Non-proprietary name</li>
+              <li>Proprietary(Brand) Name</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Dosage forms of drugs</h3>
+          <p>The dosage form provides body to the drug, demarkates single doses, protects the active ingredient(s), and makes it suitable for administration in various ways.
+            The important dosage forms are mentioned below.
+            <ol>
+              <li><strong>Solid dosage forms</strong></li>
+              <ul>
+                <li>Powders</li>
+                <li>Tablets</li>
+                <li>Pills</li>
+                <li>Capsules</li>
+                <li>Lozenges</li>
+                <li>Suppositories</li>
+              </ul>
+              <li><strong>Liquid dosage forms</strong></li>
+              <ul>
+                <li>Aqueous solutions</li>
+                <li>Suspensions</li>
+                <li>Elixirs</li>
+                <li>Drops</li>
+                <li>Lotions</li>
+                <li>Injections</li>
+              </ul>
+              <li><strong>Semisolid dosage forms</strong></li>
+              <ul>
+                <li>Ointment</li>
+                <li>Paste</li>
+                <li>Gel</li>
+              </ul>
+              <li><strong>Inhalations</strong></li>
+            </ol>
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Routes of Drug Administration</h3>
+          <p>Routes can be broadly divided into those for (a) Local action and (b) Systemic action.
+            <ol>
+              <li><strong>Local routes</strong></li>
+              <ul>
+                <li>Topical</li>
+                <li>Deeper tissues</li>
+                <li>Arterial supply</li>
+              </ul>
+              <li><strong>Systemic routes</strong></li>
+              <ul>
+                <li>Oral</li>
+                <li>Sublingual (s.l.)</li>
+                <li>Rectal</li>
+                <li>Cutaneous</li>
+                <li>Inhalation</li>
+                <li>Nasal</li>
+                <li>Parenteral</li>
+                <ul>
+                  <li>Subcutaneous(s.c.)</li>
+                  <li>Intramuscular (i.m.)</li>
+                  <li>Intravenous (i.v.)</li>
+                  <li>Intradermal injection</li>
+                </ul>
+              </ul>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Pharmacology.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pharmacology</h1>
+            <p class="lead">Pharmacology is the science of drugs (Greek:
+              Pharmacon- drug; logos- discourse in). In a broad sense, it deals with interaction of exogenously administered chemical molecules with living systems, and any single chemical substance which can produce a biological response is a drug. Pharmacology encompasses all aspects of knowledge about drugs, but most importantly those that are relevant to effective and safe use of drugs for medicinal purposes.
+              </p>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Pharmacodynamics.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pharmacodynamics <i>(Greek: dynamis-power)</i></h1>
+            <p class="lead">What the drug does to the body.
+              This includes physiological and biochemical effects of drugs and their mechanism of action at organ system/subcellular/macromolecular levels.
+              </p>
+              <p>e.g. Adrenaline -> interaction with adrenoceptors -> G-protein mediated stimulation of cell membrane bound adenylyl cyclase
+              </p>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Pharmacokinetics.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pharmacokinetics <i>(Greek: Kinesis-movement)</i></h1>
+            <p class="lead">What the body does to the drug.
+              This refers to movement of the drug in and alteration of the drug by the body; includes absorption, distribution, binding/localization/stor-age, biotransformation and excretion of the drug
+              </p>
+              <p>e.g. paracetamol is rapidly and almost completely absorbed orally attaining peak blood levels at 30-60 min; 25% bound to plasma proteins.
+              </p>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Pharmacotherapeutics.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pharmacotherapeutics </h1>
+            <p class="lead">It is the application
+              of pharmacological information together with knowledge of the disease for its prevention, mitigation or cure. Selection of the most appropriate drug, dosage and duration of treatment taking into account the stage of disease and the specific features of a patient are a part of pharmacotherapeutics.              
+            </p>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./Clinicalpharmacology.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Clinical Pharmacology </h1>
+            <p class="lead">It is the scientific study of drugs (both old and new) in man. It includes pharmacodynamic and pharmacokinetic investigation in healthy volunteers as well as in patients. Evaluation of efficacy and safetyof drugs and comparative trials with other forms of treatment; surveillance of patterns of drug use, adverse effects, etc. are also part of clinical pharmacology.
+              The aim of clinical pharmacology is to generate data for optimum use of drugs and the practice of 'evidence-based medicine'                            
+            </p>
+          </div>
+
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./Chemotherapy.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Chemotherapy </h1>
+              <p class="lead">It is the treatment of systemic infection/malignancy with specific drugs that have selective toxicity for the infecting organism/malignant cell with no/minimal effects on the host cells.
+                Drugs in general, can thus be divided into:</p>
+                <p> <strong>Pharmacodynamic agents-</strong>
+                  These are designed to have pharmacodynamic effects in the recipient.</p>
+                <p> <strong>Chemotherapeutic agents-</strong>
+                These are designed to inhibit/kill invading parasites/malignant cell, but have no/minimal pharmacodynamic effects in the recipient.           
+              </p>
+            </div>
+
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./Toxicology.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Toxicology</h1>
+                  <p class="lead">It is the study of poisonous effect of drugs and other chemicals (household, environmental pollutant, industrial, agricultural, homicidal) with emphasis on detection, prevention and treatment of poisonings. It also includes the study of adverse effects of drugs, since the same substance can be a drug or a poison, depending on the dose.                      
+                  </p>
+                </div>
+
+        </div>
+      </div>
+  
+    </main>
+
+    <section>
+      <footer><p>&copy; 2023 MedLife.com. All rights reserved.</p></footer>
+    </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
